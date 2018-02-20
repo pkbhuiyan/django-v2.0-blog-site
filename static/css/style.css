@@ -1,0 +1,54 @@
+body{
+    background: #ffffff;
+
+}
+a{
+    color: #20AA76!important;
+    text-decoration: none!important;
+}
+
+p{
+    font-size: 15px;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+/*.row.content {height: 450px}*/
+    /* Set gray background color and 100% height */
+
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+nav li {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+nav {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul button{
+        background: no-repeat;
+    border: none;
+    color: #20AA76!important;
+}
