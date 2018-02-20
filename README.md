@@ -8,7 +8,6 @@ file tree:
 			<li>djangomania</li>
 			<ul>
 				<li>accounts</li>
-
 				<li>articles</li>
 				<li>djangomania</li>
 				<li>media</li>
