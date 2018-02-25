@@ -19,5 +19,3 @@ class Article(models.Model):
         return self.body[:50]+"..."
 
 
-    # thumbnail
-    # author
