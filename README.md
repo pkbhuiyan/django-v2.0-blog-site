@@ -16,15 +16,12 @@ file tree:
 		</ul>
 
 	</ul>
-	[my_folder]
-		{djangomania}
-			(accounts
-			(articles
-			(djangomania
-			(media
-			(static
-			(templates	
-			(db.sqlite3
-			(.....
-			(....
-			....
+	</ul>
+
+
+Feature:
+
+1.Post
+2.Signup & Login
+3.Social Share
+4.Social Login
