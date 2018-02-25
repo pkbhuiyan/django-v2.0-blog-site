@@ -7,7 +7,10 @@
         {% if request.GET.next %}
             <input type="hidden" value="{{ request.GET.next }}" name="next">
         {% endif %}
-      <input type="submit" value="LogIn">
-    </form>
 
+        <input type="submit" value="LogIn">
+    </form>
+<br>
+        <strong>or</strong>
+        <a href="{% url 'social:begin' 'github'%}">Login With Github</a><br>
 {% endblock %}
